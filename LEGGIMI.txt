@@ -1,0 +1,16 @@
+SITREP ONLINE - da fare UNA volta sola (circa 10 minuti, da computer)
+
+1. Vai su github.com e crea un account gratuito (se non ce l'hai).
+2. In alto a destra: + > New repository. Nome: sitrep. Scegli "Public". Premi Create repository.
+3. Nella pagina del repository premi "uploading an existing file" e trascina dentro
+   il file sitrep.py e la cartella .github (con dentro workflows/sitrep.yml). Premi Commit changes.
+   Se la cartella .github non si carica: Add file > Create new file, scrivi come nome
+   .github/workflows/sitrep.yml, incolla il contenuto del file e premi Commit.
+4. Settings > Pages > "Build and deployment" > Source: scegli "GitHub Actions".
+5. Scheda Actions > SITREP (a sinistra) > Run workflow. Dopo 1-2 minuti compare la spunta verde.
+6. Il tuo indirizzo e': https://TUONOME.github.io/sitrep/
+   Aprilo sul Galaxy con Chrome > menu (tre puntini) > "Aggiungi a schermata Home".
+
+Da quel momento la pagina si aggiorna da sola ogni mattina (circa 5:30-6:30). Per forzare un
+aggiornamento: Actions > SITREP > Run workflow.
+Nota: la pagina e' pubblica (chi ha l'indirizzo la vede), ma contiene solo titoli di notizie.
